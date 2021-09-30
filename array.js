@@ -9,3 +9,15 @@
 const getfrutas=()=>{
     return ["Piña","Fresa","Manzana","Uva"]
 }
+
+/**
+ * funcion principal para llamado de otra funcion
+ */
+const main=()=>{
+    let frutas=getfrutas()
+    console.log(frutas)
+}
+/**
+ * invocar main
+ */
+main()
